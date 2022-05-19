@@ -3,7 +3,7 @@
 
 // axis length [mm] - PRINTER MINI
 static const uint8_t X_LEN = 184;
-static const uint8_t Y_LEN = 183;
+static const uint8_t Y_LEN = 253;
 static const uint8_t Z_LEN = 186;
 
 // tolerance (common for all axes)

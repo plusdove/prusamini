@@ -58,7 +58,7 @@ static const selftest_fan_config_t Config_HeatBreakFan = { .partname = "Fan1", .
 
 static const selftest_axis_config_t Config_XAxis = { .partname = "X-Axis", .length = 186, .fr_table = XYfr_table, .length_min = 178, .length_max = 188, .axis = X_AXIS, .steps = 4, .dir = -1 };
 
-static const selftest_axis_config_t Config_YAxis = { .partname = "Y-Axis", .length = 185, .fr_table = XYfr_table, .length_min = 179, .length_max = 189, .axis = Y_AXIS, .steps = 4, .dir = 1 };
+static const selftest_axis_config_t Config_YAxis = { .partname = "Y-Axis", .length = 255, .fr_table = XYfr_table, .length_min = 249, .length_max = 259, .axis = Y_AXIS, .steps = 4, .dir = 1 };
 
 static const selftest_axis_config_t Config_ZAxis = { .partname = "Z-Axis", .length = get_z_max_pos_mm(), .fr_table = Zfr_table, .length_min = get_z_max_pos_mm() - 4, .length_max = get_z_max_pos_mm() + 6, .axis = Z_AXIS, .steps = 1, .dir = 1 };
 
